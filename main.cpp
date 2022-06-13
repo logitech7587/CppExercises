@@ -1,10 +1,14 @@
 #include <iostream>
 #include <fstream>
-using namespace std;
 
 int main(){
+  
+  std::string name = "foo";
 
-    
+  std::cout << "Hey what's up! Enter your name: ";
 
-    return 0;
+  std::cin >> name;
+  
+
+  return 0;
 }
